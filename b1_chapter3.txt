@@ -1,0 +1,13 @@
+In GitHub, ahead and behind are metrics that compare the commit history of two branches relative to each other, indicating how much they have diverged. 
+
+Ahead :
+- A branch is a certain number of commits ahead of another branch if it contains those commits, but the other branch does not. This typically indicates: 
+
+- New work that has been committed to the current branch but not yet merged or synced into the base branch (e.g., the main or develop branch).
+- In a local repository, being "ahead of origin/main" means you have local commits that have not been pushed to the remote GitHub repository. 
+
+Behind :
+- A branch is a certain number of commits behind another branch if the other branch contains those commits, but the current branch does not. This typically indicates: 
+
+- Missing updates from the base branch that need to be incorporated into the current branch.
+- A large "behind" number is a sign that you should probably merge the base branch into your current branch to synchronize the changes and avoid potential merge conflicts. 
